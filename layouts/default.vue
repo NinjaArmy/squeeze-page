@@ -1,8 +1,20 @@
 <template>
   <div>
+    <Navbar></Navbar>
     <Nuxt />
   </div>
 </template>
+a
+
+<script>
+import Navbar from '~/components/Navbar.vue'
+
+export default {
+  components: {
+    Navbar,
+  },
+}
+</script>
 
 <style>
 html {
