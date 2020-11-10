@@ -6,7 +6,19 @@
 
 <script>
 export default {
-  name: 'thank-you-page',
+  head() {
+    return {
+      title: 'Thank You Page',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'This is the thank you page for your squeeze page google text',
+        },
+      ],
+    }
+  },
 }
 </script>
 

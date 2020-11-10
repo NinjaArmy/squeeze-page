@@ -13,6 +13,20 @@ export default {
   components: {
     Navbar,
   },
+  head() {
+    return {
+      // description on default
+      templateTitle: '%s - Squeeze Page',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'This is the thank you page for your squeeze page google text',
+        },
+      ],
+    }
+  },
 }
 </script>
 
